@@ -176,7 +176,7 @@ if($text and $qadam=="qy" and $text!="Ortga"){
 $id = "a{$chat_id}a";
     $rea = bot('sendphoto',[
         'chat_id'=>$chat_id,
-        'photo'=>"https://[SAYT NOMI VA KOD TURGAN KATALOG]/index.php?text=$er&id=$id",
+        'photo'=>"https://[KOD TURGAN SAYT PAPKASI]/index.php?text=$er&id=$id",
         'reply_markup'=>$menu1
     ])->result;
 
